@@ -91,6 +91,10 @@ function findExample(arr) {
   });
   console.log("After find:", found);
 }
+//  executes a function for each array element.
+//  returns undefined if no elements are found.
+//  does not execute the function for empty elements.
+//  does not change the original array.
 findExample([1, 2, 3, 4, 5]);
 
 // sort()
